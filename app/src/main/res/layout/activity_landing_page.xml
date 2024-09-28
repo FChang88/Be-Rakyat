@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LandingPage"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/landingPageHeader"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="47dp"
+        android:paddingLeft="5dp"
+        android:text="Selamat datang di Be:Rakyat"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_extrabold"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="239dp"
+        android:layout_height="201dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_launcher_foreground" />
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/boxshadowcontainer"
+        android:elevation="20dp"
+        android:layout_marginTop="-15dp"
+        >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Daftar"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="#458728"
+            android:background="@drawable/buttongreenborder"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Masuk"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:background="@drawable/roundbutton"
+            android:backgroundTint="#458728"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:text="Kesuksesan Anda dimulai dari sini"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_semibold"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#458728"
+        android:padding="15dp"
+        android:text="Copyright©Be:Rakyat, All rights reserved"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_semibold"/>
+
+</LinearLayout>
